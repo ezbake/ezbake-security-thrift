@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="{PACKAGE_NAME}",
+    version='2.0',
+    description='{PACKAGE_NAME} Thrift Library',
+    author='Jeff Hastings',
+    author_email='jhastings@42six.com',
+    packages=find_packages('.'),
+    install_requires=[
+        'thrift==0.9.1',
+    ]
+)

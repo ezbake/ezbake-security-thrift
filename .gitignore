@@ -1,0 +1,12 @@
+*~
+*.pyc
+target/
+src/main/thrift/generated/
+
+#intellij
+.idea/
+*.iml
+
+#Vagrant
+Vagrantfile
+.vagrant/
